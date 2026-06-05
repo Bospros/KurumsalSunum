@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BosPros Group - Kurumsal Tanıtım</title>
+    <!-- Outfit and Inter Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- Sidebar Navigation -->
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <img src="logos/bospros.png" alt="BosPros Logo" class="sidebar-logo">
+                <button id="close-sidebar-btn" title="Menüyü Kapat">×</button>
+            </div>
+            <nav class="slide-list">
+                <!-- Javascript will populate this or we write it directly for instant load and print fallback -->
+                <ul id="sidebar-menu">
+                    <!-- Slide list items go here -->
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Display Area -->
+        <main id="main-content">
+            <!-- Header / Control Bar -->
+            <header id="top-bar">
+                <div class="header-left">
+                    <button id="toggle-sidebar-btn" title="Menüyü Aç/Kapat">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <div class="logo-area">
+                        <img src="logos/bospros.png" alt="BosPros Logo" class="header-logo">
+                        <span class="logo-subtext">GROUP</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    
+                    <!-- Controls -->
+                    <button id="fullscreen-btn" class="control-btn" title="Tam Ekran">
+                        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+                    </button>
+                    <button id="autoplay-btn" class="control-btn" title="Otomatik Oynat">
+                        <svg viewBox="0 0 24 24" width="20" height="20" id="play-icon"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+                        <svg viewBox="0 0 24 24" width="20" height="20" id="pause-icon" class="hidden"><path fill="currentColor" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                    </button>
+                    <button id="print-btn" class="control-btn" title="PDF olarak kaydet (Yazdır)">
+                        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Slides Window -->
+            <div id="presentation-window">
+                <div id="slides-container">
+
+                    <!-- SLIDE 1: Cover -->
+                    <section class="slide active-slide" id="slide-1" data-theme="bospros">
+                        <div class="slide-background-glow"></div>
+                        <div class="cover-layout">
+                            <div class="cover-logo-wrapper">
+                                <img src="logos/bospros.png" alt="BosPros Group" class="cover-logo">
+                            </div>
+                            <h1 class="cover-title">BOSPROS GROUP</h1>
+                            <p class="cover-tagline">BUILD. GROW. SCALE.</p>
+                            <div class="cover-description">
+                                Türkiye'de ve dünyada bireyleri ve şirketleri küresel pazarlara açan, büyüten ve ölçeklendiren yapı.
+                                
+                            </div>
+                            <div class="cover-footer">
+                                Kurumsal Tanıtım Sunumu
+                                
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 2: At A Glance -->
+                    <section class="slide" id="slide-2" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros’a Genel Bakış
+                            
+                            <span class="slide-subtitle">
+                                2021’den bugüne saha deneyimi, küresel ortaklık ağı ve çok katmanlı büyüme ekosistemi
+                                
+                            </span>
+                        </h2>
+                        <div class="grid-2-col">
+                            <!-- Metrics Grid -->
+                            <div class="metrics-container">
+                                <div class="metric-card">
+                                    <div class="metric-val">2021</div>
+                                    <div class="metric-lbl">
+                                        Kuruluş
+                                        
+                                    </div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-val">50+</div>
+                                    <div class="metric-lbl">
+                                        Firma Deneyimi
+                                        
+                                    </div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-val">16+</div>
+                                    <div class="metric-lbl">
+                                        Partner Ülke
+                                        
+                                    </div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-val text-sm">Sektör Bağımsız</div>
+                                    <div class="metric-lbl">
+                                        Çoklu Endüstri
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Descriptions -->
+                            <div class="desc-container">
+                                <div class="desc-card info-highlight">
+                                    <h3>
+                                        Kısa Tanım
+                                        
+                                    </h3>
+                                    <p>
+                                        BosPros, Türkiye’de ve dünyada bireyleri ve şirketleri küresel pazarlara açan, büyüten ve ölçeklendiren; strateji, saha operasyonu, teknoloji, yapay zekâ, eğitim ve topluluk bileşenlerini tek çatı altında birleştiren BosPros Grup yapılanmasıdır.
+                                        
+                                    </p>
+                                </div>
+                                <div class="desc-card border-left-turquoise">
+                                    <h3>
+                                        Konumlandırma
+                                        
+                                    </h3>
+                                    <p>
+                                        Klasik ihracat danışmanlığından farklı olarak BosPros, sadece statik bir rapor değil; eğitim, mentorluk, teknoloji ve aktif saha uygulamaları ile desteklenen uçtan uca bir büyüme sistemi sunar.
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 3: Timeline Story -->
+                    <section class="slide" id="slide-3" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros Hikâyesi
+                            
+                            <span class="slide-subtitle">
+                                Klasik ihracat operasyonlarından küresel büyüme ekosistemine dönüşüm
+                                
+                            </span>
+                        </h2>
+                        <div class="timeline-container">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-scroll">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">1</div>
+                                    <div class="timeline-content">
+                                        <h4>2021</h4>
+                                        <p>Kuruluş ve ilk saha adımları</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">2</div>
+                                    <div class="timeline-content">
+                                        <h4>50+ Firma</h4>
+                                        <p>Sahada fiili olarak yönetilen ihracat operasyonları</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">3</div>
+                                    <div class="timeline-content">
+                                        <h4>APAC</h4>
+                                        <p>Asya Pasifik (7 ülke) bölgesinde güçlü saha varlığı</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">4</div>
+                                    <div class="timeline-content">
+                                        <h4>Avrupa</h4>
+                                        <p>Avrupa genelinde (7 ülke) partner ve distribütör ağı</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">5</div>
+                                    <div class="timeline-content">
+                                        <h4>GLOB</h4>
+                                        <p>360° ihracat büyüme sistemi doğdu</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">6</div>
+                                    <div class="timeline-content">
+                                        <h4>GlobHer</h4>
+                                        <p>Kadın odaklı büyüme + sosyal etki modeli kuruldu</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">7</div>
+                                    <div class="timeline-content">
+                                        <h4>GGL & Pumion</h4>
+                                        <p>Kreatif ve teknoloji/AI motorlarının entegrasyonu</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot">8</div>
+                                    <div class="timeline-content">
+                                        <h4>Club & Intelligence</h4>
+                                        <p>Uzun vadeli ekosistem ve veri ürünleri katmanı</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-footer card-gradient-cyan">
+                            <p>
+                                <strong>BosPros’un özü:</strong> Masa başı veriyi sahadaki gerçek bilgiyle çapraz doğrulayan; stratejiyi eğitim, altyapı ve uygulama ile tamamlayan bir büyüme yaklaşımıdır.
+                                
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 4: What is BosPros Pillars -->
+                    <section class="slide" id="slide-4" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros Nedir?
+                            
+                            <span class="slide-subtitle">
+                                BosPros bir ihracat danışmanlığı değildir; şirketleri ve bireyleri küresel pazarlara taşıyan bir büyüme ekosistemidir.
+                                
+                            </span>
+                        </h2>
+                        <div class="slide-intro-text">
+                            <p>
+                                BosPros; veriye dayalı hedef pazar seçimi, sahadan doğrulanmış pazar bilgisi, distribütör ve bayi yapılanması, pazarlama ve satış operasyonları, yurtdışı yapılanma, eğitim, yapay zekâ ve teknoloji altyapısını birleştiren küresel büyüme ekosistemidir.
+                                
+                            </p>
+                        </div>
+                        <div class="grid-3-col">
+                            <div class="pillar-card border-top-cyan">
+                                <h3>1. Veri</h3>
+                                <p>Ticaret verileri, pazar potansiyeli, rakip analizleri ve hedef müşteri havuzu çalışmaları.</p>
+                            </div>
+                            <div class="pillar-card border-top-turquoise">
+                                <h3>2. Saha</h3>
+                                <p>Yerel partnerler, distribütörler, bayi ağları ve yerinde ticari doğrulamalar.</p>
+                            </div>
+                            <div class="pillar-card border-top-orange">
+                                <h3>3. Strateji</h3>
+                                <p>Ülke, kanal, fiyatlama, kurumsal yapılanma ve pazara giriş modeli.</p>
+                            </div>
+                            <div class="pillar-card border-top-gold">
+                                <h3>4. Uygulama</h3>
+                                <p>Fiziki ziyaretler, distribütör kurulumu, pazarlık süreçleri, satış kapama and denetim.</p>
+                            </div>
+                            <div class="pillar-card border-top-blue">
+                                <h3>5. Teknoloji</h3>
+                                <p>yapay zekâ temsilcisi entegrasyonu, bulut yazılım ürünleri, web/mobil geliştirme ve dijital altyapı.</p>
+                            </div>
+                            <div class="pillar-card border-top-purple">
+                                <h3>6. Topluluk</h3>
+                                <p>BosPros Club, küresel ortaklık ağı, mentorlar ve sürekli iş geliştirme ekosistemi.</p>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-cyan">
+                            <p>
+                                <strong>Bütünsel Sistem:</strong> Bu altı sütun birbirinden bağımsız değildir; her biri birbirini besleyen ve sistemin otonom çalışmasını sağlayan entegre bir büyüme döngüsü oluşturur.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 5: Mission, Vision -->
+                    <section class="slide" id="slide-5" data-theme="bospros">
+                        <h2 class="slide-header">
+                            Misyon, Vizyon & Ana Pozisyon
+                            
+                            <span class="slide-subtitle">
+                                BosPros’un kurumsal yönü ve büyüme felsefesi
+                                
+                            </span>
+                        </h2>
+                        <div class="grid-3-col height-fill">
+                            <div class="mvi-card card-gradient-cyan">
+                                <div class="mvi-icon">🎯</div>
+                                <h3>
+                                    MİSYON
+                                    
+                                </h3>
+                                <p>
+                                    Bireyleri ve şirketleri küresel pazarlara açmak, doğru metodolojilerle büyütmek ve uluslararası ölçekte rekabetçi kılmak.
+                                    
+                                </p>
+                            </div>
+                            <div class="mvi-card card-gradient-blue">
+                                <div class="mvi-icon">👁️</div>
+                                <h3>
+                                    VİZYON
+                                    
+                                </h3>
+                                <p>
+                                    Veri, teknoloji, saha operasyonları ve topluluk katmanlarını tek çatıda birleştiren, dünyanın önde gelen Küresel Büyüme Ekosistemlerinden biri olmak.
+                                    
+                                </p>
+                            </div>
+                            <div class="mvi-card card-gradient-purple">
+                                <div class="mvi-icon">🌐</div>
+                                <h3>
+                                    ANA POZİSYON
+                                    
+                                </h3>
+                                <p>
+                                    BosPros altındaki tüm hizmet ve markaları Türkiye ile sınırlı bırakmadan, dünyanın her yerindeki firma ve girişimcilerin kullanabileceği küresel bir platform haline getirmek.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-cyan">
+                            <p>
+                                <strong>Stratejik İlke:</strong> BosPros'un misyonu ve vizyonu, Türkiye'deki üreticileri dünya standartlarında ölçeklendirmekle başlar; otonom teknolojiler ve veri zekası ile küresel bir otonom büyüme ağına dönüşür.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 6: Why BosPros (Traditional vs BosPros) -->
+                    <section class="slide" id="slide-6" data-theme="bospros">
+                        <h2 class="slide-header">
+                            Neden BosPros?
+                            
+                            <span class="slide-subtitle">
+                                Klasik danışmanlıktan farklılaşan değer önerisi
+                                
+                            </span>
+                        </h2>
+                        <div class="grid-2-col">
+                            <div class="comparison-card traditional-side">
+                                <h3>
+                                    Klasik Danışmanlık
+                                    
+                                </h3>
+                                <ul>
+                                    <li>
+                                        Sadece internet ve veri tabanlarına dayalı masa başı araştırmalar.
+                                        
+                                    </li>
+                                    <li>
+                                        Rapor teslim edildikten sonra biten, uygulama desteği sunmayan statik süreç.
+                                        
+                                    </li>
+                                    <li>
+                                        Genellikle tek ülke analizi veya tekil bir hizmet odaklı dar yaklaşım.
+                                        
+                                    </li>
+                                    <li>
+                                        Müşteri firmaya yetkinlik aktarmayan, bağımlı kılan yapı.
+                                        
+                                    </li>
+                                    <li>
+                                        Müşteri ile danışmanlık saatleriyle sınırlı, sürdürülebilir olmayan ilişki.
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="comparison-card bospros-side">
+                                <h3>
+                                    BosPros Büyüme Ekosistemi
+                                    
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <strong>Veri + Saha Doğrulaması:</strong> Masa başı verilerin yerel saha ofisleriyle çapraz kontrolü.
+                                        
+                                    </li>
+                                    <li>
+                                        <strong>Eğitim + Mentorluk:</strong> Akademi aracılığıyla firma içi ekiplerin yetiştirilmesi.
+                                        
+                                    </li>
+                                    <li>
+                                        <strong>Teknoloji ve Yapay Zekâ:</strong> yapay zekâ temsilcileri ve bulut yazılımları ile süreçlerin otomasyonu.
+                                        
+                                    </li>
+                                    <li>
+                                        <strong>CUBE ile Saha Uygulaması:</strong> Distribütör bulma ve fiziki satış görüşmeleri.
+                                        
+                                    </li>
+                                    <li>
+                                        <strong>Club & Intelligence:</strong> Topluluk ve veri havuzu ile sürekli, sürdürülebilir değer.
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-cyan">
+                            <p>
+                                <strong>Değer Farkı:</strong> Klasik danışmanlık sürece statik bir raporla müdahil olurken, BosPros veriyi sahadan doğrulayan, teknolojiyi sürece entegre eden ve topluluk gücüyle sürdürülebilirliği garantileyen aktif bir büyüme modelidir.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 7: Global Growth Ecosystem Diagram -->
+                    <section class="slide" id="slide-7" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros Küresel Büyüme Ekosistemi
+                            
+                            <span class="slide-subtitle">
+                                Tüm alt markalar tek bir büyüme makinesi içinde entegre çalışır
+                                
+                            </span>
+                        </h2>
+                        <div class="ecosystem-layout">
+                            <div class="ecosystem-svg-container">
+                                <!-- Interactive SVG Ecosystem Wheel -->
+                                <svg viewBox="0 0 500 500" class="ecosystem-svg">
+                                    <!-- Background connections -->
+                                    <circle cx="250" cy="250" r="160" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="10 5" />
+                                    <!-- Center node -->
+                                    <circle cx="250" cy="250" r="55" fill="#ffffff" stroke="var(--c-bospros)" stroke-width="2" />
+                                    <image href="logos/bospros.png" x="215" y="215" width="70" height="70" />
+                                    
+                                    <!-- Brand Nodes -->
+                                    <!-- GLOB (0 deg) -->
+                                    <line x1="250" y1="250" x2="250" y2="90" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="250" cy="90" r="38" fill="#ffffff" stroke="#0369a1" stroke-width="2" class="interactive-node" data-node="glob" />
+                                    <image href="logos/glob.png" x="223" y="63" width="54" height="54" />
+                                    
+                                    <!-- GlobHer (45 deg) -->
+                                    <line x1="250" y1="250" x2="363" y2="137" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="363" cy="137" r="38" fill="#ffffff" stroke="#c2410c" stroke-width="2" class="interactive-node" data-node="globher" />
+                                    <image href="logos/globher.png" x="336" y="110" width="54" height="54" />
+ 
+                                    <!-- CUBE (90 deg) -->
+                                    <line x1="250" y1="250" x2="410" y2="250" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="410" cy="250" r="38" fill="#ffffff" stroke="#b45309" stroke-width="2" class="interactive-node" data-node="cube" />
+                                    <image href="logos/cube.png" x="383" y="223" width="54" height="54" />
+ 
+                                    <!-- Pumion (135 deg) -->
+                                    <line x1="250" y1="250" x2="363" y2="363" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="363" cy="363" r="38" fill="var(--c-pumion)" stroke="var(--c-pumion)" stroke-width="2" class="interactive-node node-brand-bg" data-node="pumion" />
+                                    <image href="logos/pumion.png" x="336" y="336" width="54" height="54" />
+ 
+                                    <!-- GGL Studio/Works (180 deg) -->
+                                    <line x1="250" y1="250" x2="250" y2="410" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="250" cy="410" r="38" fill="#ffffff" stroke="#a16207" stroke-width="2" class="interactive-node" data-node="ggl" />
+                                    <image href="logos/ggl_studio.png" x="223" y="383" width="54" height="54" />
+ 
+                                    <!-- Academy (225 deg) -->
+                                    <line x1="250" y1="250" x2="137" y2="363" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="137" cy="363" r="38" fill="#ffffff" stroke="#9a3412" stroke-width="2" class="interactive-node" data-node="academy" />
+                                    <image href="logos/academy.png" x="110" y="336" width="54" height="54" />
+ 
+                                    <!-- Club (270 deg) -->
+                                    <line x1="250" y1="250" x2="90" y2="250" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="90" cy="250" r="38" fill="var(--c-club)" stroke="var(--c-club)" stroke-width="2" class="interactive-node node-brand-bg" data-node="club" />
+                                    <image href="logos/club.png" x="63" y="223" width="54" height="54" />
+ 
+                                    <!-- Intelligence (315 deg) -->
+                                    <line x1="250" y1="250" x2="137" y2="137" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" />
+                                    <circle cx="137" cy="137" r="38" fill="var(--c-intelligence)" stroke="var(--c-intelligence)" stroke-width="2" class="interactive-node node-brand-bg" data-node="intelligence" />
+                                    <image href="logos/intelligence.png" x="110" y="110" width="54" height="54" />
+                                </svg>
+                            </div>
+                            <div class="ecosystem-details-card glassmorphic">
+                                <div id="eco-details-default">
+                                    <div class="details-hint-icon">👆</div>
+                                    <h3>
+                                        Etkileşimli Ekosistem
+                                        
+                                    </h3>
+                                    <p>
+                                        Markaların detaylarını, hizmetlerini ve ekosistemdeki yerlerini görmek için soldaki daire üzerindeki logolara tıklayın veya dokunun.
+                                        
+                                    </p>
+                                </div>
+                                <div id="eco-details-content" class="hidden">
+                                    <div class="details-header-wrapper">
+                                        <img src="" id="eco-details-logo" class="details-logo">
+                                        <h3 id="eco-details-title">Brand Title</h3>
+                                    </div>
+                                    <p id="eco-details-desc">Brand description</p>
+                                    <ul id="eco-details-list">
+                                        <!-- List of sub-services -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-cyan">
+                            <p>
+                                <strong>Ekosistem Gücü:</strong> Hiçbir marka izole çalışmaz; veriden stratejiye, kreatif üretimden saha satışına kadar her birim, müşterinin küresel yolculuğunda birbirini besleyen entegre bir değer zinciri sunar.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 8: Group Architecture -->
+                    <section class="slide" id="slide-8" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros Grup Mimarisi
+                            
+                            <span class="slide-subtitle">
+                                BosPros Grup altında konumlandırılmış mevcut iş birimleri ve stratejik büyüme inisiyatifleri
+                                
+                            </span>
+                        </h2>
+                        <div class="arch-container">
+                            <!-- Growth -->
+                            <div class="arch-card border-left-turquoise">
+                                <div class="arch-icon">🚀</div>
+                                <h4>
+                                    Büyüme Bölümü
+                                    
+                                </h4>
+                                <ul>
+                                    <li>GLOB</li>
+                                    <li>GlobHer</li>
+                                    <li>CUBE</li>
+                                </ul>
+                            </div>
+                            <!-- Tech -->
+                            <div class="arch-card border-left-blue">
+                                <div class="arch-icon">💻</div>
+                                <h4>
+                                    Teknoloji Bölümü
+                                    
+                                </h4>
+                                <ul>
+                                    <li>Pumion</li>
+                                </ul>
+                            </div>
+                            <!-- Creative -->
+                            <div class="arch-card border-left-gold">
+                                <div class="arch-icon">🎨</div>
+                                <h4>
+                                    Kreatif Bölüm
+                                    
+                                </h4>
+                                <ul>
+                                    <li>GGL Studio</li>
+                                    <li>GGL Works</li>
+                                </ul>
+                            </div>
+                            <!-- Education -->
+                            <div class="arch-card border-left-orange">
+                                <div class="arch-icon">🎓</div>
+                                <h4>
+                                    Eğitim Bölümü
+                                    
+                                </h4>
+                                <ul>
+                                    <li>BosPros Akademi</li>
+                                </ul>
+                            </div>
+                            <!-- Community -->
+                            <div class="arch-card border-left-cyan strategic-tag">
+                                <div class="arch-icon">👥</div>
+                                <h4>
+                                    Topluluk Bölümü
+                                    
+                                </h4>
+                                <p class="strategic-label">
+                                    Stratejik Girişim
+                                    
+                                </p>
+                                <ul>
+                                    <li>BosPros Kulübü</li>
+                                </ul>
+                            </div>
+                            <!-- Intelligence -->
+                            <div class="arch-card border-left-purple strategic-tag">
+                                <div class="arch-icon">📊</div>
+                                <h4>
+                                    İstihbarat Bölümü
+                                    
+                                </h4>
+                                <p class="strategic-label">
+                                    Stratejik Girişim
+                                    
+                                </p>
+                                <ul>
+                                    <li>BosPros İstihbaratı</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-cyan">
+                            <p>
+                                <strong>Organizasyonel Yapı:</strong> Modüler mimarimiz sayesinde firmalar ihtiyaç duydukları tek bir servisten faydalanabileceği gibi, ihtiyaçları büyüdüğünde tüm grup kapasitesini uçtan uca kullanabilirler.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 9: Growth Division -->
+                    <section class="slide" id="slide-9" data-theme="glob">
+                        <h2 class="slide-header">
+                            Büyüme Bölümü
+                            
+                            <span class="slide-subtitle">
+                                BosPros’un pazar stratejisi, iş geliştirme ve saha operasyon kası
+                                
+                            </span>
+                        </h2>
+                        <div class="grid-3-col height-fill">
+                            <div class="component-card card-gradient-turquoise border-top-turquoise">
+                                <div class="component-logo-area">
+                                    <img src="logos/glob.png" alt="GLOB" class="component-logo logo-disi">
+                                </div>
+                                <h3>GLOB</h3>
+                                <h4>
+                                    360° Global Büyüme Sistemi
+                                    
+                                </h4>
+                                <p>
+                                    Veriye dayalı hedef pazar tespiti, rakip ve müşteri analizleri, teşvik/fon yönetimi, ülke giriş planı, kurumsal şirketleşme ve ekibin eğitim süreçlerini içeren kapsamlı yol arkadaşlığı.
+                                    
+                                </p>
+                            </div>
+                            <div class="component-card card-gradient-orange border-top-orange">
+                                <div class="component-logo-area">
+                                    <img src="logos/globher.png" alt="GlobHer" class="component-logo logo-disi">
+                                </div>
+                                <h3>GlobHer</h3>
+                                <h4>
+                                    Kadın Odaklı Küresel Büyüme
+                                    
+                                </h4>
+                                <p>
+                                    İvme ve Zirve programlarıyla kadın girişimcileri uluslararası pazarlara hazırlayan; ticari büyümeyi toplumsal cinsiyet eşitliği temelli bir sosyal etki modeliyle birleştiren yapı.
+                                    
+                                </p>
+                            </div>
+                            <div class="component-card card-gradient-gold border-top-gold">
+                                <div class="component-logo-area">
+                                    <img src="logos/cube.png" alt="CUBE" class="component-logo logo-disi">
+                                </div>
+                                <h3>CUBE</h3>
+                                <h4>
+                                    Saha Uygulama Operasyonu
+                                    
+                                </h4>
+                                <p>
+                                    Stratejiyi fiiliyata dökerek yerinde distribütör/bayi kurulumları, sıcak saha satış ziyaretleri, müşteri görüşmeleri, pazarlık ve operasyon takibini yürüten saha uygulama motoru.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-turquoise">
+                            <p>
+                                <strong>Operasyonel Sinerji:</strong> Stratejik hedefleme (GLOB), e-ticaret dönüşümü (GlobHer) ve fiziki saha satışı (CUBE) tek bir otonom büyüme koridoru oluşturacak şekilde senkronize çalışır.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 10: GLOB 360 Process -->
+                    <section class="slide" id="slide-10" data-theme="glob">
+                        <h2 class="slide-header">
+                            GLOB 360° Global Growth System
+                            
+                            <span class="slide-subtitle">
+                                Sadece statik bir rapor değil; 6–12 aylık aktif büyüme yol arkadaşlığı
+                                
+                            </span>
+                        </h2>
+                        <div class="process-wrapper">
+                            <div class="process-step">
+                                <div class="step-num">1</div>
+                                <h4>Analiz</h4>
+                                <p>Firma, ürün, finans, pazar analizi</p>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-num">2</div>
+                                <h4>Doğrulama</h4>
+                                <p>Masa başı verinin saha partnerleriyle kontrolü</p>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-num">3</div>
+                                <h4>Strateji</h4>
+                                <p>Hedef ülke, kanal, fiyat ve yapı kurgusu</p>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-num">4</div>
+                                <h4>Eğitim</h4>
+                                <p>Ekip eğitimi ve yapay zekâ adaptasyonu</p>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-num">5</div>
+                                <h4>Uygulama</h4>
+                                <p>Müşteri, distribütör ve saha bağlantıları</p>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-num">6</div>
+                                <h4>Ölçekleme</h4>
+                                <p>Sonuç ölçümü, tekrar ve sürdürülebilirlik</p>
+                            </div>
+                        </div>
+                        <div class="process-sub-elements grid-4-col">
+                            <div class="sub-element-pill">Hedef Pazar Analizi</div>
+                            <div class="sub-element-pill">Rakip Analizi</div>
+                            <div class="sub-element-pill">Müşteri Listeleri</div>
+                            <div class="sub-element-pill">Tedarikçi Raporu</div>
+                            <div class="sub-element-pill">Teşvik / Fonlar</div>
+                            <div class="sub-element-pill">Yurtdışı Yapılanma</div>
+                            <div class="sub-element-pill">Pazarlama Stratejisi</div>
+                            <div class="sub-element-pill">AI Dönüşüm</div>
+                        </div>
+                        <div class="slide-footer card-gradient-turquoise">
+                            <p>
+                                <strong>Büyüme Döngüsü:</strong> GLOB 360, tek seferlik bir hizmet değil; analizden ölçeklemeye uzanan, firmanın tüm ihracat kabiliyetlerini dönüştüren sürekli bir başarı döngüsüdür.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 11: GLOB Service Layers -->
+                    <section class="slide" id="slide-11" data-theme="glob">
+                        <h2 class="slide-header">
+                            GLOB’un Detaylı Hizmet Katmanları
+                            
+                            <span class="slide-subtitle">
+                                Her başlık bağımsız ürünleşebilir; birlikte 360° kurumsal dönüşüm sistemi oluşturur
+                                
+                            </span>
+                        </h2>
+                        <div class="layers-grid">
+                            <div class="layer-item">
+                                <div class="layer-title">Hedef Pazar Analizi</div>
+                                <div class="layer-desc">
+                                    Küresel ticaret verileri ve ürün bazlı potansiyel eşleşmelerle, firmanın kapasitesine en uygun doğru hedef ülkelerin seçimi.
+                                    
+                                </div>
+                            </div>
+                            <div class="layer-item">
+                                <div class="layer-title">Saha Doğrulaması</div>
+                                <div class="layer-desc">
+                                    Asya Pasifik, Avrupa ve ABD partner ağından gelen yerel saha bilgisiyle masa başı verilerin çapraz kontrolü.
+                                    
+                                </div>
+                            </div>
+                            <div class="layer-item">
+                                <div class="layer-title">Rakip / Rekabet Analizi</div>
+                                <div class="layer-desc">
+                                    Hedef pazarlardaki rakiplerin fiyatlama, kanal yapısı, müşteri ilişkileri ve satış dinamiklerinin incelenmesi.
+                                    
+                                </div>
+                            </div>
+                            <div class="layer-item">
+                                <div class="layer-title">Müşteri Listeleri</div>
+                                <div class="layer-desc">
+                                    Hedef pazardaki potansiyel müşterilerin ham verilerden karar verici kontak (iletişim) seviyesine kadar filtrelenmiş havuzu.
+                                    
+                                </div>
+                            </div>
+                            <div class="layer-item">
+                                <div class="layer-title">Tedarikçi Raporu</div>
+                                <div class="layer-desc">
+                                    Rakiplerin tedarik zincirlerinin, hangi üreticiden hangi fiyatlarla ve hacimlerle alım yaptıklarının analizi.
+                                    
+                                </div>
+                            </div>
+                            <div class="layer-item">
+                                <div class="layer-title">Fon / Teşvik</div>
+                                <div class="layer-desc">
+                                    Devlet destekleri, ihracat teşvikleri, Avrupa Birliği hibeleri ve küresel fon fırsatlarının tespit ve başvuru kurgusu.
+                                    
+                                </div>
+                            </div>
+                            <div class="layer-item">
+                                <div class="layer-title">Yurtdışı Yapılanma</div>
+                                <div class="layer-desc">
+                                    ABD ve Avrupa merkezli şirket kurulumu, bankacılık, vergi altyapısı ve depo/operasyon kurgusunun yönetimi.
+                                    
+                                </div>
+                            </div>
+                            <div class="layer-item">
+                                <div class="layer-title">Eğitim + Mentorluk</div>
+                                <div class="layer-desc">
+                                    Ekosisteme katılan firmaların raporlardaki stratejileri bizzat uygulayabilmesi için ekiplerine verilen eğitim ve koçluk.
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-turquoise">
+                            <p>
+                                <strong>Modülerlik:</strong> İhtiyaç duyduğunuz her katman tekil bir çözüm sunarken, birleştiklerinde firmanızı ihracat dünyasında tam donanımlı bir oyuncuya dönüştürür.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 12: GlobHer -->
+                    <section class="slide" id="slide-12" data-theme="globher">
+                        <h2 class="slide-header">
+                            GlobHer
+                            
+                            <span class="slide-subtitle">
+                                Kadın odaklı global büyüme programı: Ticari büyüme + Sosyal etki
+                                
+                            </span>
+                        </h2>
+                        <div class="globher-grid">
+                            <div class="globher-package card-gradient-turquoise">
+                                <div class="package-header border-top-turquoise">İvme</div>
+                                <p class="package-intro">
+                                    Mikro girişimci ve bireysel kadın markaları globale taşımayı hedefler.
+                                    
+                                </p>
+                                <ul>
+                                    <li>ABD şirket kurulumu ve banka hesabı</li>
+                                    <li>Etsy, Amazon ve Ozon mağaza kurulumu</li>
+                                    <li>Bilingual (çift dilli) e-ticaret sitesi</li>
+                                    <li>30 günlük stratejik pazarlama planı</li>
+                                    <li>Haftalık birebir gelişim danışmanlığı</li>
+                                </ul>
+                            </div>
+                            <div class="globher-package card-gradient-orange">
+                                <div class="package-header border-top-orange">Zirve</div>
+                                <p class="package-intro">
+                                    Orta ve büyük ölçekli kadın ortaklı firmaları uluslararası pazarla buluşturur.
+                                    
+                                </p>
+                                <ul>
+                                    <li>Veriye dayalı küresel pazar analizi</li>
+                                    <li>En doğru 3 hedef ülke tespiti ve analizi</li>
+                                    <li>Filtrelenmiş potansiyel müşteri listeleri</li>
+                                    <li>Fiyatlama ve kanal rekabet analizleri</li>
+                                    <li>Mevcut finansal yapının ihracata uygunluğu</li>
+                                </ul>
+                            </div>
+                            <div class="globher-package card-gradient-gold">
+                                <div class="package-header border-top-gold">
+                                    Sosyal Etki
+                                    
+                                </div>
+                                <p class="package-intro">
+                                    Fırsat eşitliği sağlayarak kadınların ekonomik bağımsızlığını destekler.
+                                    
+                                </p>
+                                <ul>
+                                    <li>İhtiyaç sahibi ev hanımları ve genç kızlar</li>
+                                    <li>BosPros Academy'den ücretsiz eğitim alırlar</li>
+                                    <li>Başarılı olanlar sosyal etki kontenjanına alınır</li>
+                                    <li>E-ticaret ile sıfırdan küresel gelir elde ederler</li>
+                                </ul>
+                                <div class="social-formula">
+                                    <div class="heart-pulse">❤️</div>
+                                    <p>
+                                        <strong>1 Satılan GlobHer Paketi</strong><br>= 1 Ücretsiz Sosyal Kontenjan
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-orange">
+                            <p>
+                                <strong>Sosyal Vizyon:</strong> GlobHer, ticari karlılığı sosyal sorumlulukla birleştirerek, kadın girişimcilerin küresel başarılarının çarpan etkisiyle daha fazla kadına istihdam ve gelir kapısı açmasını hedefler.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 13: CUBE -->
+                    <section class="slide" id="slide-13" data-theme="cube">
+                        <h2 class="slide-header">
+                            CUBE: Saha Uygulama Operasyonu
+                            
+                            <span class="slide-subtitle">
+                                GLOB raporlarından çıkan pazar hedeflerinin sahadaki uygulama gücü
+                                
+                            </span>
+                        </h2>
+                        <div class="cube-layout">
+                            <div class="cube-intro">
+                                <p>
+                                    <strong>CUBE,</strong> firmalar ihracat operasyonlarını tamamen dışarıya devretmek istediğinde devreye giren operasyon markasıdır. Distribütör/bayi kurulumu, saha ziyaretleri, müşteri görüşmeleri, pazarlık, satışa hazırlık ve operasyon takibi CUBE altında yürütülür.
+                                    
+                                </p>
+                            </div>
+                            <div class="cube-steps-grid">
+                                <div class="cube-step-card">
+                                    <div class="cube-step-num">1</div>
+                                    <p>Hedef ülkedeki distribütör ve bayi alternatiflerinin haritalandırılması.</p>
+                                </div>
+                                <div class="cube-step-card">
+                                    <div class="cube-step-num">2</div>
+                                    <p>Potansiyel adayların ön incelemesi, iletişime geçilmesi ve görüşmeler.</p>
+                                </div>
+                                <div class="cube-step-card">
+                                    <div class="cube-step-num">3</div>
+                                    <p>Ülkeye özel giriş ve pazarlama kanalı stratejisinin kurulması.</p>
+                                </div>
+                                <div class="cube-step-card">
+                                    <div class="cube-step-num">4</div>
+                                    <p>Sıcak müşteri ziyaretleri, teklif hazırlığı, pazarlık ve satış kapama.</p>
+                                </div>
+                                <div class="cube-step-card">
+                                    <div class="cube-step-num">5</div>
+                                    <p>Servis ağları kurulumu (teknik ürünlerde) veya memnuniyet takibi.</p>
+                                </div>
+                                <div class="cube-step-card">
+                                    <div class="cube-step-num">6</div>
+                                    <p>Yerel partner ve bayilerle birlikte saha uygulamasının denetimi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-gold">
+                            <p>
+                                <strong>Saha Gücü:</strong> CUBE, masa başı raporları canlı birer satış kanalına dönüştürerek, firmaların yurt dışında yerel kadrolar kurmasına gerek kalmadan ihracatı otonom bir operasyon haline getirir.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 14: Technology Division: Pumion -->
+                    <section class="slide" id="slide-14" data-theme="pumion">
+                        <h2 class="slide-header">
+                            Teknoloji Bölümü: Pumion
+                            
+                            <span class="slide-subtitle">
+                                BosPros’un teknoloji, yapay zekâ ve bulut yazılım motoru
+                                
+                            </span>
+                        </h2>
+                        <div class="pumion-layout">
+                            <div class="pumion-desc border-left-blue">
+                                <p>
+                                    <strong>Pumion,</strong> BosPros ekosisteminin geleneksel yazılım ve yapay zekâ tabanlı yazılım hizmetleri veren teknoloji markasıdır. Bulut yazılım ürünleri, otonom yapay zekâ temsilcileri, özel yazılımlar ve dijital dönüşüm araçları Pumion altında geliştirilir.
+                                    
+                                </p>
+                            </div>
+                            <div class="pumion-cards grid-4-col">
+                                <div class="tech-card border-top-blue">
+                                    <div class="tech-icon">⚙️</div>
+                                    <h3>
+                                        Bulut Yazılım Ürünleri
+                                        
+                                    </h3>
+                                    <p>
+                                        Ekosisteme dahil firmaların veya bağımsız kullanıcıların kullanabileceği ölçeklenebilir bulut yazılımları.
+                                        
+                                    </p>
+                                </div>
+                                <div class="tech-card border-top-cyan">
+                                    <div class="tech-icon">🤖</div>
+                                    <h3>
+                                        Yapay Zekâ Temsilcisi Sistemleri
+                                        
+                                    </h3>
+                                    <p>
+                                        Operasyon süreçlerini hızlandıran, veri işleyen, otonom kararlar alabilen yapay zekâ iş akışları.
+                                        
+                                    </p>
+                                </div>
+                                <div class="tech-card border-top-turquoise">
+                                    <div class="tech-icon">💻</div>
+                                    <h3>
+                                        Özel Yazılım
+                                        
+                                    </h3>
+                                    <p>
+                                        İhracat pazarlama altyapıları, CRM sistemleri, entegrasyonlar, web ve mobil uygulamalar.
+                                        
+                                    </p>
+                                </div>
+                                <div class="tech-card border-top-purple">
+                                    <div class="tech-icon">⚡</div>
+                                    <h3>
+                                        AI Dönüşüm
+                                        
+                                    </h3>
+                                    <p>
+                                        Klasik şirket operasyonlarının yapay zekâ araçlarıyla donatılarak verimlilik artışı sağlanması.
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-blue">
+                            <p>
+                                <strong>Teknolojik Kaldıraç:</strong> Pumion, insan gücüne bağımlı operasyonel süreçleri otonom yazılımlara dönüştürerek globalleşme yolundaki firmaların ölçeklenebilirlik bariyerini ortadan kaldırır.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 15: Creative Division GGL Studio / GGL Works -->
+                    <section class="slide" id="slide-15" data-theme="ggl">
+                        <h2 class="slide-header">
+                            Kreatif Bölüm (GGL)
+                            
+                            <span class="slide-subtitle">
+                                GGL Studio ve GGL Works, BosPros’un kreatif üretim ve dijital pazarlama katmanını oluşturur
+                                
+                            </span>
+                        </h2>
+                        <div class="grid-2-col">
+                            <div class="creative-card card-gradient-yellow border-top-yellow">
+                                <div class="creative-logo-wrapper">
+                                    <img src="logos/ggl_studio.png" alt="GGL Studio" class="creative-logo logo-disi">
+                                </div>
+                                <h3>GGL Studio</h3>
+                                <ul>
+                                    <li>
+                                        Web sitesi, e-ticaret altyapısı, mobil uygulama ve oyun arayüzü tasarımları.
+                                        
+                                    </li>
+                                    <li>
+                                        Kurumsal kimlik, marka konumlandırma, logo ve marka kimliği rehberi çalışmaları.
+                                        
+                                    </li>
+                                    <li>
+                                        Temel dijital pazarlama kurgusu ve ihracata uyumlu reklam altyapısı.
+                                        
+                                    </li>
+                                    <li>
+                                        Yapay zekâ destekli kreatif süreçler ve hızlı görsel prototipleme.
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="creative-card card-gradient-gold border-top-gold">
+                                <div class="creative-logo-wrapper">
+                                    <img src="logos/ggl_works.png" alt="GGL Works" class="creative-logo logo-disi">
+                                </div>
+                                <h3>GGL Works</h3>
+                                <h4>Hizmet Olarak Kreatif Tasarım</h4>
+                                <ul>
+                                    <li>
+                                        Abonelik bazlı, hızlı ve ölçeklenebilir görsel tasarım platformu.
+                                        
+                                    </li>
+                                    <li>
+                                        Marka bilgilerinin (logo, renk paleti, marka kimliği rehberi) bir kez sisteme yüklenmesi.
+                                        
+                                    </li>
+                                    <li>
+                                        Form üzerinden kolay, hızlı talep oluşturma ve atama.
+                                        
+                                    </li>
+                                    <li>
+                                        24 saat içinde yüksek kaliteli görsel teslim garantisi.
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-yellow">
+                            <p>
+                                <strong>Kreatif İvme:</strong> GGL, kurumsal kimlik inşasını ajans kalitesinde (GGL Studio) yürütürken; günlük tasarım operasyonlarını 24 saatte hızlı teslim sunan otonom talep sistemiyle (GGL Works) ölçeklendirir.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 16: GGL Works Flow -->
+                    <section class="slide" id="slide-16" data-theme="ggl">
+                        <h2 class="slide-header">
+                            GGL Works: Hizmet Olarak Kreatif Tasarım
+                            
+                            <span class="slide-subtitle">
+                                Ajans kalitesini yapay zekâ hızı ve abonelik ekonomisiyle birleştiren platform
+                                
+                            </span>
+                        </h2>
+                        <div class="flow-layout">
+                            <div class="flow-steps">
+                                <div class="flow-step-item">
+                                    <div class="flow-step-badge">1</div>
+                                    <div class="flow-step-body">
+                                        <h4>Üye Olunur</h4>
+                                        <p>Kurumsal veya bireysel kullanıcı aboneliğini başlatır.</p>
+                                    </div>
+                                </div>
+                                <div class="flow-step-item">
+                                    <div class="flow-step-badge">2</div>
+                                    <div class="flow-step-body">
+                                        <h4>Marka Bilgileri Yüklenir</h4>
+                                        <p>Markanın logoları, renk kodları, fontları ve stil rehberi sisteme girilir.</p>
+                                    </div>
+                                </div>
+                                <div class="flow-step-item">
+                                    <div class="flow-step-badge">3</div>
+                                    <div class="flow-step-body">
+                                        <h4>Talep İletilir</h4>
+                                        <p>Portal üzerindeki form ile talep edilen görsel ihtiyacı detaylandırılır.</p>
+                                    </div>
+                                </div>
+                                <div class="flow-step-item">
+                                    <div class="flow-step-badge">4</div>
+                                    <div class="flow-step-body">
+                                        <h4>Üretim Süreci</h4>
+                                        <p>Yapay zekâ araçlarıyla hızlandırılmış profesyonel tasarım ekibi çalışır.</p>
+                                    </div>
+                                </div>
+                                <div class="flow-step-item">
+                                    <div class="flow-step-badge">5</div>
+                                    <div class="flow-step-body">
+                                        <h4>24 Saatte Teslim</h4>
+                                        <p>Hazırlanan sosyal medya, reklam, katalog veya web görselleri teslim edilir.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flow-outro glassmorphic border-top-yellow">
+                                <h3>
+                                    Küresel Ölçeklenebilirlik
+                                    
+                                </h3>
+                                <p>
+                                    GGL Works’ün nihai hedefi, tasarım üretimini insan saatinden bağımsızlaştırarak, Türkiye dışındaki tüm global firmalara ve ajanslara aylık abonelik modeliyle hizmet satan küresel bir tasarım fabrikası olmaktır.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 17: BosPros Academy -->
+                    <section class="slide" id="slide-17" data-theme="academy">
+                        <h2 class="slide-header">
+                            BosPros Akademi
+                            
+                            <span class="slide-subtitle">
+                                GLOB, GlobHer ve tüm ekosistemin eğitim ve yetkinlik kurma motoru
+                                
+                            </span>
+                        </h2>
+                        <div class="academy-layout">
+                            <div class="academy-intro border-left-orange">
+                                <p>
+                                    BosPros Akademi, GLOB ve GlobHer içindeki tüm eğitimlerin ana taşıyıcısıdır. Temel vizyonumuz; firmalara sadece rapor teslim etmek değil, <strong>raporun nasıl uygulanacağını, yönetileceğini ve başarının nasıl sürdürülebilir kılınacağını bizzat öğretmektir.</strong>
+                                    
+                                </p>
+                            </div>
+                            <div class="academy-cards grid-4-col">
+                                <div class="academy-card card-gradient-orange border-top-orange">
+                                    <h3>İhracat Akademisi</h3>
+                                    <p>
+                                        Temel ihracat stratejileri, hedef pazar seçimi metodolojileri, gümrük süreçleri, operasyon ve uluslararası satış kapama eğitimleri.
+                                        
+                                    </p>
+                                </div>
+                                <div class="academy-card card-gradient-blue border-top-blue">
+                                    <h3>Yapay Zekâ Akademisi</h3>
+                                    <p>
+                                        Şirket içi operasyonlarda yapay zekâ kullanımı, veri analizi, otomasyon araçları, prompt mühendisliği ve içerik üretim süreçleri.
+                                        
+                                    </p>
+                                </div>
+                                <div class="academy-card card-gradient-turquoise border-top-turquoise">
+                                    <h3>Dijital Büyüme</h3>
+                                    <p>
+                                        E-ihracat, global pazar yerleri (Amazon, Etsy vb.) yönetimi, çift dilli e-ticaret siteleri yönetimi ve küresel reklamcılık.
+                                        
+                                    </p>
+                                </div>
+                                <div class="academy-card card-gradient-gold border-top-gold">
+                                    <h3>Kurumsal Akademi</h3>
+                                    <p>
+                                        Büyük ölçekli firmalara özel hazırlanan kurumsal eğitimler, departman yetkinlik dönüşüm programları ve sertifikasyon süreçleri.
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 18: BosPros Club -->
+                    <section class="slide" id="slide-18" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros Kulübü: Ekosistem Omurgası
+                            
+                            <span class="slide-subtitle">
+                                Stratejik Girişim: Müşteri, partner ve distribütörleri tek ağda birleştiren sinir sistemi
+                                
+                            </span>
+                        </h2>
+                        <div class="club-layout">
+                            <div class="club-intro">
+                                <p>
+                                    <strong>BosPros Kulübü</strong> basit bir “müşteri kulübü” değildir; GLOB müşterileri, GlobHer üyeleri, global partnerler, mentorlar, yatırımcılar, distribütörler, eğitmenler ve hizmet sağlayıcıları tek bir ağ altında buluşturan bir iş geliştirme ve sinerji omurgasıdır.
+                                    
+                                </p>
+                            </div>
+                            <div class="club-nodes-grid">
+                                <div class="club-node border-top-cyan">GLOB Müşterileri</div>
+                                <div class="club-node border-top-orange">GlobHer Üyeleri</div>
+                                <div class="club-node border-top-turquoise">Global Partner Ofisleri</div>
+                                <div class="club-node border-top-gold">Uzman Mentor Ağı</div>
+                                <div class="club-node border-top-blue">Yatırımcılar / VC'ler</div>
+                                <div class="club-node border-top-purple">Distribütör & Bayiler</div>
+                                <div class="club-node border-top-yellow">Akademi Eğitmenleri</div>
+                                <div class="club-node border-top-white">Hizmet Sağlayıcılar</div>
+                            </div>
+                            <div class="club-goal-box card-gradient-cyan">
+                                <p>
+                                    <strong>Hedef:</strong> Proje teslim edilip bittikten sonra da müşteri ilişkisini sürdüren, ekosistem içi çapraz satış ve yeni küresel ortaklık fırsatları doğuran bir topluluk katmanı yaratmak.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 19: BosPros Intelligence -->
+                    <section class="slide" id="slide-19" data-theme="intelligence">
+                        <h2 class="slide-header">
+                            BosPros İstihbaratı: Veri Sermayesi
+                            
+                            <span class="slide-subtitle">
+                                Stratejik Girişim: Yıllar boyunca sahada derlenen ticari bilginin veri ürününe dönüşmesi
+                                
+                            </span>
+                        </h2>
+                        <div class="intel-layout">
+                            <div class="intel-text border-left-purple">
+                                <p>
+                                    <strong>BosPros İstihbaratı,</strong> her GLOB raporu, CUBE saha operasyonu ve partner etkileşimi sırasında elde edilen pazar, rakip, distribütör, tedarikçi, müşteri, fiyat ve saha verilerinin konsolide edilerek karar destek sistemlerine ve dijital veri ürünlerine dönüşmesidir.
+                                    
+                                </p>
+                            </div>
+                            
+                            <!-- Interactive SVG Diagram showing Data Loop -->
+                            <div class="intel-diagram-container">
+                                <div class="intel-box input-sources">
+                                    <h5>Veri Kaynakları</h5>
+                                    <ul>
+                                        <li>GLOB Raporları</li>
+                                        <li>CUBE Operasyonları</li>
+                                        <li>Pumion Yapay Zekâ ve Bulut Yazılımları</li>
+                                        <li>Kulüp Etkileşimleri</li>
+                                        <li>Ortaklık Ağları</li>
+                                    </ul>
+                                </div>
+                                <div class="intel-arrow">➡️</div>
+                                <div class="intel-box processing-core">
+                                    <h5>BosPros İstihbaratı Havuzu</h5>
+                                    <p class="processing-glow">Konsolide Ediliyor &amp; Yapılandırılıyor</p>
+                                </div>
+                                <div class="intel-arrow">➡️</div>
+                                <div class="intel-box output-products">
+                                    <h5>Zekâ Ürünleri</h5>
+                                    <div class="data-pills">
+                                        <span>Pazar</span>
+                                        <span>Ticaret</span>
+                                        <span>Rakip</span>
+                                        <span>Tedarikçi</span>
+                                        <span>Distribütör</span>
+                                        <span>Yapay Zekâ Analitiği</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 20: Global Partner Network Map -->
+                    <section class="slide" id="slide-20" data-theme="bospros">
+                        <h2 class="slide-header">
+                            Global Partner Ağı
+                            
+                            <span class="slide-subtitle">
+                                Masa başı ticaret verileri, yerel saha partnerleriyle çapraz doğrulanır
+                                
+                            </span>
+                        </h2>
+                        <div class="map-layout">
+                            <div class="map-details glassmorphic">
+                                <h3>
+                                    Fiziki Saha Gücü
+                                    
+                                </h3>
+                                <p>
+                                    BosPros’u klasik danışmanlıklardan ayıran en büyük güç; sadece gümrük verileri veya internet araştırmalarıyla kalmayıp, yerel partnerleri vasıtasıyla sahadaki gerçek bayi, fiyat ve rekabet bilgilerini yerinde doğrulamasıdır.
+                                    
+                                </p>
+                                <div class="map-hover-hint">
+                                    Bölgelerin üzerine gelerek partner ülkeleri listeleyin:
+                                    
+                                </div>
+                                <div class="region-list-container">
+                                    <div class="region-pill" data-region="tr-us">TR & USA</div>
+                                    <div class="region-pill" data-region="eu">EUROPE</div>
+                                    <div class="region-pill" data-region="apac">ASIA PACIFIC (APAC)</div>
+                                </div>
+                                <div id="map-region-countries" class="region-countries-box hidden">
+                                    <!-- Populated by JS -->
+                                </div>
+                            </div>
+                            <div class="map-visual-container">
+                                <!-- Minimal SVG World Map style visualization -->
+                                <svg viewBox="0 0 800 400" class="world-svg">
+                                    <defs>
+                                        <style>
+                                            :root {
+                                                --map-continent-fill: rgba(11, 51, 83, 0.08);
+                                            }
+                                        </style>
+                                    </defs>
+                                    <!-- Detailed stylized background world outline -->
+                                    <!-- North America -->
+                                    <path d="M100,80 C120,60 170,50 200,60 C210,65 240,60 250,70 C240,80 230,95 240,110 C250,120 220,130 200,135 C190,140 180,170 170,185 C160,200 150,210 145,215 C140,210 135,190 130,180 C120,170 115,160 110,150 C100,140 90,125 100,80 Z" fill="var(--map-continent-fill)" />
+                                    <!-- South America -->
+                                    <path d="M200,200 C210,195 220,200 230,210 C240,220 255,240 250,270 C245,300 220,335 210,350 C205,355 200,355 195,350 C185,330 180,310 180,290 C180,270 185,250 185,240 C185,230 190,210 200,200 Z" fill="var(--map-continent-fill)" />
+                                    <!-- Greenland -->
+                                    <path d="M230,45 C240,35 270,35 280,45 C275,55 260,65 245,60 C235,58 230,52 230,45 Z" fill="var(--map-continent-fill)" />
+                                    <!-- Eurasia (Europe & Asia) -->
+                                    <path d="M360,90 C380,80 400,65 425,60 C450,55 500,50 550,55 C600,60 680,50 720,70 C740,80 750,100 740,120 C730,140 750,165 730,180 C710,195 680,190 660,200 C640,210 620,230 600,240 C580,250 550,230 535,215 C520,200 500,205 480,200 C460,195 450,180 440,175 C430,170 410,165 400,160 C380,150 375,130 365,120 C355,110 350,100 360,90 Z" fill="var(--map-continent-fill)" />
+                                    <!-- Africa -->
+                                    <path d="M380,175 C390,170 420,165 440,175 C450,180 460,195 470,210 C480,225 485,245 475,270 C465,295 450,320 440,330 C435,335 430,330 425,320 C415,300 400,275 390,250 C380,225 375,200 380,175 Z" fill="var(--map-continent-fill)" />
+                                    <!-- Australia -->
+                                    <path d="M620,260 C640,250 670,255 680,265 C690,275 700,290 695,305 C690,320 670,325 650,320 C630,315 615,295 620,260 Z" fill="var(--map-continent-fill)" />
+                                    <!-- Iceland -->
+                                    <path d="M300,55 C305,50 315,50 310,58 C305,62 298,60 300,55 Z" fill="var(--map-continent-fill)" />
+                                    <!-- United Kingdom & Ireland -->
+                                    <path d="M380,85 C382,80 388,80 390,85 C388,90 382,90 380,85 Z" fill="var(--map-continent-fill)" />
+                                    <!-- Japan -->
+                                    <path d="M710,110 C712,105 718,115 715,125 C712,130 710,120 710,110 Z" fill="var(--map-continent-fill)" />
+                                    
+                                    <!-- Connections & Glowing Dots -->
+                                    <!-- USA Point -->
+                                    <circle cx="170" cy="115" r="8" class="map-glow-dot active-region" data-region="tr-us" />
+                                    <text x="170" y="100" class="map-label">USA</text>
+                                    
+                                    <!-- Europe Point -->
+                                    <circle cx="420" cy="110" r="8" class="map-glow-dot active-region" data-region="eu" />
+                                    <text x="420" y="95" class="map-label">Avrupa</text>
+                                    
+                                    <!-- Turkey Point -->
+                                    <circle cx="465" cy="145" r="8" class="map-glow-dot active-region" data-region="tr-us" />
+                                    <text x="465" y="165" class="map-label">Türkiye</text>
+                                    
+                                    <!-- APAC Points -->
+                                    <circle cx="650" cy="200" r="8" class="map-glow-dot active-region" data-region="apac" />
+                                    <text x="650" y="220" class="map-label">APAC</text>
+                                    
+                                    <!-- Connecting lines to Turkey -->
+                                    <path d="M170,115 Q317,130 465,145" fill="none" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" stroke-dasharray="5 5" />
+                                    <path d="M420,110 Q442,127 465,145" fill="none" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" stroke-dasharray="5 5" />
+                                    <path d="M650,200 Q557,172 465,145" fill="none" stroke="rgba(11, 51, 83, 0.15)" stroke-width="1.5" stroke-dasharray="5 5" />
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 21: Customer Journey -->
+                    <section class="slide" id="slide-21" data-theme="bospros">
+                        <h2 class="slide-header">
+                            Müşteri Yolculuğu
+                            
+                            <span class="slide-subtitle">
+                                BosPros müşterileri tek bir hizmetten değil, tüm ekosistemden değer alır
+                                
+                            </span>
+                        </h2>
+                        <div class="journey-layout">
+                            <div class="journey-pipeline">
+                                <div class="journey-step border-top-turquoise" data-step="1">
+                                    <div class="journey-step-badge">GLOB</div>
+                                    <p class="journey-step-title">Strateji &amp; Pazar</p>
+                                </div>
+                                <div class="journey-step border-top-orange" data-step="2">
+                                    <div class="journey-step-badge">Akademi</div>
+                                    <p class="journey-step-title">Eğitim &amp; Yetkinlik</p>
+                                </div>
+                                <div class="journey-step border-top-yellow" data-step="3">
+                                    <div class="journey-step-badge">GGL</div>
+                                    <p class="journey-step-title">Dijital Altyapı</p>
+                                </div>
+                                <div class="journey-step border-top-blue" data-step="4">
+                                    <div class="journey-step-badge">Pumion</div>
+                                    <p class="journey-step-title">Yazılım &amp; Yapay Zekâ</p>
+                                </div>
+                                <div class="journey-step border-top-gold" data-step="5">
+                                    <div class="journey-step-badge">CUBE</div>
+                                    <p class="journey-step-title">Saha Uygulama</p>
+                                </div>
+                                <div class="journey-step border-top-cyan" data-step="6">
+                                    <div class="journey-step-badge">Kulüp</div>
+                                    <p class="journey-step-title">Süreklilik &amp; Ağ</p>
+                                </div>
+                            </div>
+                            <div class="journey-info-card glassmorphic">
+                                <div id="journey-info-default">
+                                    <div class="details-hint-icon">👆</div>
+                                    <h3>
+                                        Sinerjik Müşteri Yolculuğu
+                                        
+                                    </h3>
+                                    <p>
+                                        Müşterinin BosPros ekosisteminde attığı adımların, hizmetlerin birbirini nasıl beslediğinin detaylarını görmek için yukarıdaki boru hattındaki adımlara tıklayın.
+                                        
+                                    </p>
+                                </div>
+                                <div id="journey-info-content" class="hidden">
+                                    <h3 id="journey-info-title">Step Title</h3>
+                                    <p id="journey-info-desc">Step description text</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 22: Flywheel -->
+                    <section class="slide" id="slide-22" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros Büyüme Volanı
+                            
+                            <span class="slide-subtitle">
+                                Ekosistem büyüdükçe veri, ürün ve topluluk değeri katlanarak artar
+                                
+                            </span>
+                        </h2>
+                        <div class="flywheel-layout">
+                            <div class="flywheel-visual">
+                                <!-- Rotating Flywheel SVG -->
+                                <svg viewBox="0 0 400 400" class="flywheel-svg">
+                                    <defs>
+                                        <linearGradient id="cyan-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#0369a1" />
+                                            <stop offset="100%" stop-color="#0b3353" />
+                                        </linearGradient>
+                                    </defs>
+                                    <!-- Outer Orbit Line -->
+                                    <circle cx="200" cy="200" r="130" fill="none" stroke="rgba(11, 51, 83, 0.12)" stroke-width="4" />
+                                    <!-- Spinning Group -->
+                                    <g class="rotating-group">
+                                        <!-- Arrow indicators around orbit -->
+                                        <path d="M200,60 A140,140 0 0,1 340,200" fill="none" stroke="url(#cyan-blue)" stroke-width="3" marker-end="url(#arrow)" />
+                                        <path d="M340,200 A140,140 0 0,1 200,340" fill="none" stroke="url(#cyan-blue)" stroke-width="3" />
+                                        <path d="M200,340 A140,140 0 0,1 60,200" fill="none" stroke="url(#cyan-blue)" stroke-width="3" />
+                                        <path d="M60,200 A140,140 0 0,1 200,60" fill="none" stroke="url(#cyan-blue)" stroke-width="3" />
+
+                                        <!-- Brand Node circles on orbit -->
+                                        <circle cx="200" cy="70" r="22" fill="#0b3353" stroke="#137d97" stroke-width="2" />
+                                        <text x="200" y="74" text-anchor="middle" fill="#fff" font-size="9" font-family="Outfit" font-weight="bold">GLOB</text>
+
+                                        <circle cx="292" cy="108" r="22" fill="#0b3353" stroke="#c77a45" stroke-width="2" />
+                                        <text x="292" y="112" text-anchor="middle" fill="#fff" font-size="9" font-family="Outfit" font-weight="bold">Akademi</text>
+                                        
+
+                                        <circle cx="330" cy="200" r="22" fill="#0b3353" stroke="#ffb703" stroke-width="2" />
+                                        <text x="330" y="204" text-anchor="middle" fill="#fff" font-size="9" font-family="Outfit" font-weight="bold">GGL</text>
+
+                                        <circle cx="292" cy="292" r="22" fill="#0b3353" stroke="#0a58ca" stroke-width="2" />
+                                        <text x="292" y="296" text-anchor="middle" fill="#fff" font-size="9" font-family="Outfit" font-weight="bold">Pumion</text>
+
+                                        <circle cx="200" cy="330" r="22" fill="#0b3353" stroke="#e7b86b" stroke-width="2" />
+                                        <text x="200" y="334" text-anchor="middle" fill="#fff" font-size="9" font-family="Outfit" font-weight="bold">CUBE</text>
+
+                                        <circle cx="108" cy="292" r="22" fill="#0b3353" stroke="#00b4d8" stroke-width="2" />
+                                        <text x="108" y="296" text-anchor="middle" fill="#fff" font-size="9" font-family="Outfit" font-weight="bold">Kulüp</text>
+                                        
+
+                                        <circle cx="70" cy="200" r="22" fill="#0b3353" stroke="#7209b7" stroke-width="2" />
+                                        <text x="70" y="204" text-anchor="middle" fill="#fff" font-size="9" font-family="Outfit" font-weight="bold">İstihbarat</text>
+                                        
+                                    </g>
+                                    <!-- Center Core -->
+                                    <circle cx="200" cy="200" r="45" fill="#f8fafc" stroke="var(--c-bospros)" stroke-width="2" />
+                                    <text x="200" y="196" text-anchor="middle" fill="var(--c-bospros)" font-size="10" font-family="Outfit" font-weight="bold">VERİ &amp;</text>
+                                    <text x="200" y="210" text-anchor="middle" fill="var(--c-bospros)" font-size="10" font-family="Outfit" font-weight="bold">SİNERJİ</text>
+                                    
+                                    
+                                </svg>
+                            </div>
+                            <div class="flywheel-desc border-left-cyan">
+                                <h3>
+                                    Volan Etkisi
+                                    
+                                </h3>
+                                <p>
+                                    Her yeni <strong>GLOB</strong> müşterisi ekosisteme girdiğinde <strong>Akademi</strong> ile eğitilir, <strong>GGL &amp; Pumion</strong> ile altyapısı kurulur, <strong>CUBE</strong> ile sahada satışı gerçekleştirilir. Müşteri daha sonra <strong>Kulüp</strong>'e katılarak topluluğu büyütür. Bu döngüde oluşan tüm saha ve müşteri verileri <strong>İstihbarat</strong> havuzuna akar. Biriken veri ise bir sonraki pazar stratejisinin çok daha isabetli, hızlı ve akıllı kurulmasını sağlar.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 23: Globalization Goal -->
+                    <section class="slide" id="slide-23" data-theme="bospros">
+                        <h2 class="slide-header">
+                            Globalleşme Hedefi
+                            
+                            <span class="slide-subtitle">
+                                BosPros altındaki tüm markaların nihai hedefi küresel pazara açılmaktır
+                                
+                            </span>
+                        </h2>
+                        <div class="grid-2-col height-fill">
+                            <div class="global-card border-left-turquoise">
+                                <h3>
+                                    İhracat Danışmanlığı Sadece Türkiye'ye Lazım Değildir
+                                    
+                                </h3>
+                                <p>
+                                    Polonya'daki bir makine üreticisi, Vietnam'daki bir tekstil firması veya ABD'deki bir yazılım şirketi de küresel pazarlara açılmaya, saha doğrulaması yapmaya ve distribütör ağları kurmaya ihtiyaç duyar. BosPros, Türkiye'de geliştirdiği saha metodolojilerini tüm dünyaya ihraç edecek şekilde konumlandırılmıştır.
+                                    
+                                </p>
+                            </div>
+                            <div class="global-grid-list">
+                                <div class="global-list-item card-gradient-turquoise">
+                                    <strong>GLOB / GlobHer</strong>
+                                    <p>Dünya genelindeki tüm şirket ve kadın girişimcilere büyüme ve pazar açılım modelleri sunar.</p>
+                                </div>
+                                <div class="global-list-item card-gradient-blue">
+                                    <strong>Pumion / GGL Works</strong>
+                                    <p>Yazılım, yapay zekâ temsilcisi kurulumları ve abonelik bazlı görsel tasarım hizmetlerini küresel ölçekte ihraç eder.</p>
+                                </div>
+                                <div class="global-list-item card-gradient-purple">
+                                    <strong>Academy / Club / Intelligence</strong>
+                                    <p>Küresel bilgi birikimini akredite eğitimlere, aktif ticaret veri ürünlerine ve uluslararası ağlara dönüştürür.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-turquoise">
+                            <p>
+                                <strong>Küreselleşme Vizyonu:</strong> BosPros'un metodolojileri sınır tanımaz. Amaç, Türkiye'de edinilen yerel bilgi birikimi ve operasyonel disiplin ile küresel pazarlarda büyüme modelini dünya standartlarına taşımaktır.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 24: 2030 Vision -->
+                    <section class="slide" id="slide-24" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros 2030 Vizyonu
+                            
+                            <span class="slide-subtitle">
+                                Klasik bir danışmanlık şirketinden küresel bir veri, teknoloji ve büyüme ekosistemine
+                                
+                            </span>
+                        </h2>
+                        <div class="vision-grid">
+                            <div class="vision-card">
+                                <div class="vision-num">01</div>
+                                <h4>Büyüme</h4>
+                                <p>GLOB, GlobHer ve CUBE ile dünya genelinde binlerce firmaya hizmet sunan lider büyüme operasyon ağı.</p>
+                            </div>
+                            <div class="vision-card">
+                                <div class="vision-num">02</div>
+                                <h4>Teknoloji</h4>
+                                <p>Pumion aracılığıyla tekrarlanabilir bulut yazılım gelirleri ve şirketlere entegre otonom yapay zekâ temsilcisi ağları.</p>
+                            </div>
+                            <div class="vision-card">
+                                <div class="vision-num">03</div>
+                                <h4>Kreatif</h4>
+                                <p>GGL Works ile binlerce global ajans ve kurumsal aboneye 24 saatte tasarım teslim eden küresel kreatif fabrikası.</p>
+                            </div>
+                            <div class="vision-card">
+                                <div class="vision-num">04</div>
+                                <h4>Eğitim</h4>
+                                <p>BosPros Akademi ile küresel çapta akredite e-ihracat, yapay zekâ ve uluslararası ticaret sertifikasyon merkezi.</p>
+                            </div>
+                            <div class="vision-card">
+                                <div class="vision-num">05</div>
+                                <h4>Topluluk</h4>
+                                <p>BosPros Kulübü ile binlerce firmanın, distribütörün ve yatırımcının buluştuğu en aktif global iş ağı.</p>
+                            </div>
+                            <div class="vision-card">
+                                <div class="vision-num">06</div>
+                                <h4>İstihbarat</h4>
+                                <p>Veri ürünleri, gümrük zekası ve saha veritabanı ile ihracat kararlarına yön veren küresel veri/teknoloji şirketi.</p>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-cyan">
+                            <p>
+                                <strong>Stratejik Hedef:</strong> 2030 yılına kadar BosPros, iş süreçlerini ve büyümeyi dijitalleştirerek, geleneksel danışmanlık sınırlarını tamamen aşan küresel bir büyüme ekosistemi haline gelecektir.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 25: Long-term Value -->
+                    <section class="slide" id="slide-25" data-theme="bospros">
+                        <h2 class="slide-header">
+                            BosPros Uzun Vadeli Değeri Nasıl Üretir?
+                            
+                            <span class="slide-subtitle">
+                                Değer; tekil bir hizmetten değil, markalar arası döngüden ve sinerjiden doğar
+                                
+                            </span>
+                        </h2>
+                        <div class="grid-3-col height-fill">
+                            <div class="value-card border-top-turquoise">
+                                <h3>
+                                    1. Bilgi Birikimi
+                                </h3>
+                                <p>
+                                    5 yılı aşkın saha tecrübesi, 50'den fazla firmanın bizzat yönetilmiş ihracat operasyonları, farklı endüstrilerde biriktirilmiş pazar giriş pratikleri ve kurulan bayi ağları.
+                                </p>
+                            </div>
+                            <div class="value-card border-top-blue">
+                                <h3>
+                                    2. Veri Havuzu
+                                </h3>
+                                <p>
+                                    Her rapor ve CUBE operasyonunda biriken pazar eğilimleri, rakip fiyatlamaları, doğrulanmış alıcı listeleri ve distribütör memnuniyet verilerinin oluşturduğu veri sermayesi.
+                                </p>
+                            </div>
+                            <div class="value-card border-top-purple">
+                                <h3>
+                                    3. Teknoloji &amp; Ölçeklenebilirlik
+                                </h3>
+                                <p>
+                                    Saha bilgisini bulut yazılım ürünlerine ve otonom yapay zekâ temsilcisi iş akışlarına aktararak, insan gücü artışına ihtiyaç duymadan küresel ölçekte büyüme yeteneği.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide-footer card-gradient-cyan">
+                            <p>
+                                <strong>Sürdürülebilirlik:</strong> BosPros'un ürettiği uzun vadeli değer, firmaların küresel pazarda otonom bir şekilde kalıcı olmasını ve pazar dinamiklerine göre kendilerini güncelleyebilmesini sağlar.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- SLIDE 26: Closing Cover -->
+                    <section class="slide" id="slide-26" data-theme="bospros">
+                        <div class="slide-background-glow"></div>
+                        <div class="cover-layout">
+                            <div class="cover-logo-wrapper">
+                                <img src="logos/bospros.png" alt="BosPros Group" class="cover-logo">
+                            </div>
+                            <h1 class="cover-title">BOSPROS GROUP</h1>
+                            <p class="cover-tagline">BUILD. GROW. SCALE.</p>
+                            <div class="cover-description">
+                                Türkiye'de ve dünyada bireyleri ve şirketleri küresel pazarlara açan, büyüten ve ölçeklendiren yapı.
+                            </div>
+                            <div class="closing-contact">
+                                <p>www.bospros.com</p>
+                                <p>info@bospros.com</p>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+            <!-- Slide Navigation Footer controls (hidden during full screen if wanted, or subtle) -->
+            <footer id="nav-controls">
+                <button id="prev-slide-btn" class="nav-arrow-btn" title="Önceki Slayt (Sol Ok)">◀</button>
+                <div id="slide-counter">1 / 26</div>
+                <button id="next-slide-btn" class="nav-arrow-btn" title="Sonraki Slayt (Sağ Ok)">▶</button>
+            </footer>
+        </main>
+    </div>
+
+    <!-- App Script -->
+    <script src="app.js"></script>
+</body>
+</html>
